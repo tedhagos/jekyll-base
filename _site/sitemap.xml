@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tedhagos.github.com/androidandroid-location-api</loc>
+    <loc>http://tedhagos.com/projectname/sample-post</loc>
+    <lastmod>2012-12-12T00:00:00+08:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  
+  <url>
+    <loc>http://tedhagos.com/projectname/android-location-api</loc>
     <lastmod>2012-12-12T00:00:00+08:00</lastmod>
     <changefreq>daily</changefreq>
   </url>
