@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Ted's blog'</title>
- <link href="http://tedhagos.github.com/projectname/feed/" rel="self"/>
- <link href="http://tedhagos.github.com/projectname/"/>
+ <link href="http://tedhagos.com/projectname/feed/" rel="self"/>
+ <link href="http://tedhagos.com/projectname/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tedhagos.github.com/android/</id>
+ <id>http://tedhagos.com/android/</id>
  <author>
    <name>Ted Hagos</name>
    <email>ted@thelogbox.com</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://tedhagos.github.com/projectname{{ post.url }}"/>
+   <link href="http://tedhagos.com/projectname{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tedhagos.github.com/projectname{{ post.id }}</id>
+   <id>http://tedhagos.com/projectname{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
