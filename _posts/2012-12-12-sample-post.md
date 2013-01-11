@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Sample Post
+
+description: This will go to your meta tag 
+
 ---
 
 You can use **MarkDown** to write post 
