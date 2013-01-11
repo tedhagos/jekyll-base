@@ -76,11 +76,9 @@ code, pre {
 	font-family: 'Source Code Pro';
 	font-size: .8em;
 	padding: 1.5em;
-}
-
-pre {
 	border: 1px solid #DEDEDE;
 }
+
 
 
 /* Pygments stylesheets */
