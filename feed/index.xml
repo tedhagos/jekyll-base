@@ -8,7 +8,7 @@ layout: nil
  <link href="http://tedhagos.com/projectname/feed/" rel="self"/>
  <link href="http://tedhagos.com/projectname/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tedhagos.com/android/</id>
+ <id>http://tedhagos.com/projectname/</id>
  <author>
    <name>Ted Hagos</name>
    <email>ted@thelogbox.com</email>
